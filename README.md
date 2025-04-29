@@ -1,4 +1,4 @@
-# @vgrid/react-leaflet-heatmap-layer
+# @lulububu/react-leaflet-heatmap-layer
 
 `react-leaflet-heatmap-layer` provides a simple `<HeatmapLayer />` component for creating a heatmap layer in a `react-leaflet` map.
 
@@ -14,7 +14,7 @@ Use directly as a fixed layer:
 import React from 'react';
 import { render } from 'react-dom';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
-import HeatmapLayerFactory from '../src/HeatmapLayer';
+import HeatmapLayerFactory from '@lulububu/react-leaflet-heatmap-layer';
 import { addressPoints } from './realworld.10000.js';
 
 const HeatmapLayer = HeatmapLayerFactory<[number, number, number]>()
@@ -52,7 +52,7 @@ Or use it inside a layer control to toggle it:
 import React from 'react';
 import { render } from 'react-dom';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
-import HeatmapLayerFactory from '../src/HeatmapLayer';
+import HeatmapLayerFactory from '@lulububu/react-leaflet-heatmap-layer';
 import { addressPoints } from './realworld.10000.js';
 
 const HeatmapLayer = HeatmapLayerFactory<[number, number, number]>()
