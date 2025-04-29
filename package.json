@@ -1,6 +1,6 @@
 {
   "name": "@lulububu/react-leaflet-heatmap-layer",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "A custom layer for heatmaps in react-leaflet",
   "main": "cjs/index.js",
   "module": "esm/index.js",
